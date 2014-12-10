@@ -12,3 +12,6 @@ github_path: https://github.com/sethiele/podlist
 # Build settings
 markdown: kramdown
 timezone: Europe/Berlin
+
+# Outputting
+permalink:     none

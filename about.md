@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About
+title: Über diese Podcast Liste
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Vor einiger Zeit bin ich auf das Medium Podcast gestoßen und bin seit dem sehr begeistert davon.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Ich habe jetzt schon ein paar Podcasts die ich regelmäßig höre und wollte diese mal zusammentragen.
+Dazu kommt, dass diese Seite mit [jekyllrb](http://jekyllrb.com) gebaut ist. Eine Technik, die ich schon immer mal ausprobieren wollte.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## Mit machen
+Diese Liste kann von allen die Lust haben mit gepflegt werden. Dazu einfach auf [github](https://github.com/sethiele/podlist) diese Seite anpassen und ein pull request schicken. Oder dort ein issue erstellen.

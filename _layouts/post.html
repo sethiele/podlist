@@ -12,4 +12,30 @@ layout: default
     {{ content }}
   </article>
 
+  <article class="podcast-meta">
+    <ul class="footer-col footer-col-1">
+      <li>{% if page.podcast_url %}<a href="{{ page.podcast_url }}" target="_blank">Webseite</a>{% endif %}</li>
+      <li>{% if page.podcast_rss %}<a href="{{ page.podcast_rss }}" target="_blank">RSS Feed</a>{% endif %}</li>
+      <li>{% if page.podcast_twitter %}<a href="https://twitter.com/{{ page.podcast_twitter }}" taget="_blank">@{{ page.podcast_twitter }}</a>{% endif %}</li>
+    </ul>
+    <ul class="footer-col footer-col-2">
+      <li>Kategorie:<ul>
+        {% for category in page.categories %}
+          <li>{{ category }}</li>
+        {% endfor %}</ul></li>
+      <li>Tags:<ul>
+        {% for tag in page.tags %}
+          <li>{{ tag }}</li>
+        {% endfor %}</ul></li>
+    </ul>
+    <ul class="footer-col footer-col-3">
+      <li>Eingetragen von: 
+        {% if page.author_twitter %}<a href="http://twitter.com/{{ page.author_twitter }}" target="_blank">{% endif %}
+          {{ page.author_name }}
+        {% if page.author_twitter %}</a>{% endif %}
+        </li>
+      <li>Eingetragen am: {{ page.date | date: "%-d.%m.%Y" }}</li>
+    </ul>
+  </article>
+
 </div>
