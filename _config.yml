@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Eine/Meine Liste von Podcasts von denen ich der meinung bin das Sie hörenswert sind.
   Es darf sich sehr gerne jeder daran beteiligen und seine eigenen Favorits mit eintragen.
   Dazu einfach einen Pullrequest bei github stellen.
-baseurl: "/podlist" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Sebat
 github_path: https://github.com/sethiele/podlist
